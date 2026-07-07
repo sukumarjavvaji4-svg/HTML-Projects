@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Registration Form</title>
+    </head>
+    <body>
+        <h1>Student Registration Form</h1>
+        <form>
+            <label>Name: </label>
+            <input type="text" placeholder="Enter Your Name" required><br><br>
+            <label>RollNo.: </label>
+            <input type="number" required><br><br>
+            <label>Email: </label>
+            <input type="email" placeholder="Enter valid Email" required><br><br>
+            <label>Password: </label>
+            <input type="password" required minlength="5" maxlength="20"><br><br>
+            <label>PhoneNumber: </label>
+            <input type="tel" required><br><br>
+            <label>DOB: </label>
+            <input type="date" required><br><br>
+            <label>Age: </label>
+            <input type="number" required><br><br>
+            <label>Gender: </label>
+            <input type="radio" name="gender">male
+            <input type="radio" name="gender">female
+            <input type="radio" name="gender">other<br><br>
+            <label>Skills: </label><br>
+            <input type="checkbox" name="os">c<br>
+            <input type="checkbox" name="os">c++<br>
+            <input type="checkbox" name="os">python<br>
+            <input type="checkbox" name="os">HTML<br>
+            <input type="checkbox" name="os">java<br><br>
+            <label>Branch: </label>
+            <select>
+                <option>CSE</option>
+                <option>ECE</option>
+                <option>IT</option>
+            </select><br><br>
+            <label>Address</label><br> 
+            <textarea rows="3" cols="30"></textarea><br><br>
+            <label Photo></label>
+            <input type="file" required><br><br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </body>
+</html>
