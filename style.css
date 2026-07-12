@@ -1,0 +1,20 @@
+body {
+    background: lightblue;
+    padding: 20px;
+}
+h1 {
+    color: darkblue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#about {
+    color: green;
+}
+#skills {
+    background: yellow;
+    color: red;
+}
+footer {
+    color:purple;
+}
+
