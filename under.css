@@ -1,0 +1,35 @@
+#header-title{
+    color:white;
+    background:darkblue;
+    padding:20px;
+}
+#about{
+    background: lightgreen;
+    padding:20px;
+    color: darkgreen;
+}
+#skills{
+    background: yellow;
+    padding:20px;
+}
+#skills li{
+    padding:5px;
+    color:red;
+}
+.projects{
+    background:lightgray;
+    padding: 15px;
+    padding:20px;
+}
+body{
+    background-color: pink;
+}
+
+footer{
+    background-color: black;
+    color: purple;
+}
+*{
+    margin:0px;
+    padding:0px;
+}
